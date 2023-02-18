@@ -1,0 +1,8 @@
+node_modules
+.env
+YSReuO6vzkBWd4Tdfe8HE0YLXj4tJokfatsORv7iZ94.json
+
+cache
+tmp
+yarn-error.log
+*.log

@@ -1,0 +1,21 @@
+{
+  "name": "20230218-waevedb-set-rules-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "kaz",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.13"
+  },
+  "dependencies": {
+    "node-dev": "^8.0.0",
+    "prettier": "^2.8.4",
+    "ramda": "^0.28.0",
+    "weavedb-node-client": "^0.20.1",
+    "weavedb-sdk-node": "^0.20.34"
+  },
+  "scripts": {
+    "dev": "node-dev index.js --respawn",
+    "prettier": "prettier ./**.{js,ts,jsx,tsx} --write"
+  }
+}
